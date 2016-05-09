@@ -43,5 +43,11 @@ namespace K_means_clustering.Classes.Reader
                 Console.WriteLine(e.Message);
             }
         }
+
+        public int[,] getDataSet()
+        {
+            return this.dataSet;
+        }
+
     }
 }

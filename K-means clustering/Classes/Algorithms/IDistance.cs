@@ -8,6 +8,6 @@ namespace K_means_clustering.Classes.Algorithms
 {
     interface IDistance : IAlgorithm
     {
-        double Calculate(double currentPoint, double epicenter);
+        double Calculate(double[] currentPoint, double[] centroid);
     }
 }

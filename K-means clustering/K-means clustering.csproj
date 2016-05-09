@@ -47,7 +47,7 @@
     <Compile Include="Classes\Algorithms\IAlgorithm.cs" />
     <Compile Include="Classes\Algorithms\IDistance.cs" />
     <Compile Include="Classes\Reader\FileReader.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\KMeans.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
